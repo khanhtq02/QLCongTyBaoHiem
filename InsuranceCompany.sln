@@ -75,70 +75,25 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlazorWasmClient", "..\Blaz
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "63464"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63464"
+		Debug.AspNetCompiler.PhysicalPath = "..\BlazorWasmClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63464\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63464"
+		Release.AspNetCompiler.PhysicalPath = "..\BlazorWasmClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63464\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63464"
 		SlnRelativePath = "..\BlazorWasmClient\"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "scripts", "..\scripts\", "{12468B30-4DB0-4F9A-0292-99A1DD7D0DF0}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_63465"
-		Debug.AspNetCompiler.PhysicalPath = "..\scripts\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63465\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_63465"
-		Release.AspNetCompiler.PhysicalPath = "..\scripts\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63465\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63465"
-		SlnRelativePath = "..\scripts\"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "..\Web\", "{14E6C5C2-EEF7-24DD-F17B-FC530F5939AB}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_63468"
-		Debug.AspNetCompiler.PhysicalPath = "..\Web\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63468\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_63468"
-		Release.AspNetCompiler.PhysicalPath = "..\Web\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63468\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63468"
-		SlnRelativePath = "..\Web\"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eureka-server", "..\eureka-server\", "{BFFDA2A2-2B00-6CF8-7503-7CBDA22F97BC}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_65296"
-		Debug.AspNetCompiler.PhysicalPath = "..\eureka-server\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65296\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_65296"
-		Release.AspNetCompiler.PhysicalPath = "..\eureka-server\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65296\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "65296"
-		SlnRelativePath = "..\eureka-server\"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicySearchService", "PolicySearchService\PolicySearchService.csproj", "{B3E6729F-40CD-2D44-A57D-0F5C044B2607}"
@@ -233,18 +188,6 @@ Global
 		{DD093E98-F8E1-3217-59DD-5ADF630C35D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD093E98-F8E1-3217-59DD-5ADF630C35D9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD093E98-F8E1-3217-59DD-5ADF630C35D9}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{12468B30-4DB0-4F9A-0292-99A1DD7D0DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12468B30-4DB0-4F9A-0292-99A1DD7D0DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12468B30-4DB0-4F9A-0292-99A1DD7D0DF0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{12468B30-4DB0-4F9A-0292-99A1DD7D0DF0}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{14E6C5C2-EEF7-24DD-F17B-FC530F5939AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14E6C5C2-EEF7-24DD-F17B-FC530F5939AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14E6C5C2-EEF7-24DD-F17B-FC530F5939AB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{14E6C5C2-EEF7-24DD-F17B-FC530F5939AB}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{BFFDA2A2-2B00-6CF8-7503-7CBDA22F97BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFFDA2A2-2B00-6CF8-7503-7CBDA22F97BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFFDA2A2-2B00-6CF8-7503-7CBDA22F97BC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFFDA2A2-2B00-6CF8-7503-7CBDA22F97BC}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{B3E6729F-40CD-2D44-A57D-0F5C044B2607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B3E6729F-40CD-2D44-A57D-0F5C044B2607}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E6729F-40CD-2D44-A57D-0F5C044B2607}.Release|Any CPU.ActiveCfg = Release|Any CPU
